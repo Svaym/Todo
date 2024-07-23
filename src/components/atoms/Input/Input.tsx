@@ -12,7 +12,8 @@ export default function Input({ value, onChange, onKeyDown }: InputProps) {
       value={value}
       onChange={onChange}
       onKeyDown={onKeyDown}
-      className="outline-none px-3 py-2 rounded-md transition-colors ease-linear duration-300 focus:bg-slate-300"
+      placeholder="Новая задача..."
+      className="outline-none px-3 py-2 rounded-md w-[22rem] transition-colors ease-linear duration-300 focus:bg-slate-300"
     />
   );
 }
