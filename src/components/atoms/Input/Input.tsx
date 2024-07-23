@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 interface InputProps {
@@ -15,7 +16,10 @@ export default function Input({
   mx,
 }: InputProps) {
   return (
-    <input
+    <motion.input
+      initial={{ opacity: 0, x: '-100%' }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ ease: 'easeOut', duration: 0.5 }}
       type="text"
       value={value}
       onChange={onChange}
