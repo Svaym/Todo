@@ -1,7 +1,8 @@
 {
   "importOrder": ["^components/(.*)$", "^[./]"],
-  "importOrderSeparation": true,
+  "importOrderSeparation": false,
   "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true,
   "singleQuote": true,
   "semi": true,
   "tabWidth": 2,
