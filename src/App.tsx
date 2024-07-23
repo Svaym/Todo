@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
+
+import Header from './components/organisms/Header/Header';
+import TodoList from './components/organisms/TodoList/TodoList';
+
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-2xl font-bold">
-          asdasdasdas
-        </h1>
-      </div>
+      <Header />
+      <TodoList />
     </>
   );
 }

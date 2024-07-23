@@ -3,9 +3,6 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply font-normal font-josefin overflow-x-hidden text-gray-800 bg-gray-100;
+    @apply font-normal font-josefin overflow-x-hidden h-screen flex items-center justify-center text-gray-800 bg-gray-100;
   }
 }
-/* .container {
-  @apply max-w-7xl mx-auto px-7 w-full md:px-4 xxs:px-2;
-} */
